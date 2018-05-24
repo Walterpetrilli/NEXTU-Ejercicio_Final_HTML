@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta charset="UTF-8">
+	  <meta name="description" content="Hoja de Vida de Walter Petrilli">
+	  <meta name="keywords" content="Hoja de Vida, Curriculum, Walter Petrilli">
+	  <meta name="author" content="Walter Petrilli">
+	  <meta name="viewport" content="width=device-width">
+	<title>Hoja de Vida - Walter Petrilli</title>
+</head>
+<body>
+	<header id="header" class="">
+		<svg width="100" height="90">
+			<image xlink:href="images/logo.svg" width="100px" >
+		</svg>
+		<h1>Hoja de Vida</h1>
+		<h2>Datos Personales:</h2>
+		<h3><strong>Nobre y Apellido:</strong></h3>
+		Walter Petrilli
+		<h3><strong>Fecha de Nacimiento:</strong></h3>
+		27 de Junio de 1988
+		<h3><strong>Lugar de Nacimiento:</strong></h3>
+		Ciudad de Buenos Aires, Argentina
+		<h3></h3>
+	</header><!-- /header -->
+	<nav id="menu">
+		<ul>
+			<li><a href="index.html" title="">Inicio</a></li>
+			<li><a href="" title="">Educación</a></li>
+			<li><a href="experiencia.html" title="">Experiencia</a></li>
+		</ul>
+	</nav>
+	<article id="educacion">
+		<h2>Educación</h2>
+		<table border="1">
+			<thead>
+				<tr>
+					<th>Año</th>
+					<th>Institución</th>
+					<th>Lugar</th>
+					<th>¿Culminó?</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>2017</td>
+					<td>UCA Argentina</td>
+					<td>Buenos Aires</td>
+					<td>Si</td>
+				</tr>
+				<tr>
+					<td>2017</td>
+					<td>Educación IT</td>
+					<td>Buenos Aires</td>
+					<td>Si</td>
+				</tr>
+				<tr>
+					<td>2018</td>
+					<td>Next U</td>
+					<td>Buenos Aires</td>
+					<td>No</td>
+				</tr>
+			</tbody>
+		</table>
+	</article>
+	<article id="agregar_educacion">
+		<h2>Agregar Estudios:</h2>
+		<form>
+			<fieldset>			
+				<label for="">Año: 
+					<select name="año">
+						<option value="2016">2016</option>
+						<option value="2017">2017</option>
+						<option value="2018">2018</option>
+					</select>
+				</label><br><br>
+				<label for="institucion">Institución: <input type="text" name="institucion" value="" placeholder="Ej: UBA Argentina" required></label>
+				<br>
+				<br>
+				<label for="lugar">Lugar: <textarea name="lugar" placeholder="Ej: Buenos Aires, Argentina"></textarea></label>
+				<br><br>
+				<input type="button" name="enviar" value="Enviar">
+			</fieldset>
+		</form>
+	</article>
+	<footer id="contacto">
+		<h2>Contacto:</h2>
+		<h3>Vía Mail: </h3> <a href="mailto:walter.petrilli@gmail.com?subject=Hoja de Vida" "email me">walter.petrilli@gmail.com</a>
+		<h2>Redes Sociales</h2>
+		<a href="https://www.facebook.com/tioo.wally" target="_blank">Facebook</a>
+	</footer><!-- /footer -->
+</body>
+</html>
